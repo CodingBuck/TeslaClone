@@ -1,4 +1,11 @@
 export default [{
+
+    /*name: 'Experience Tesla',
+    tagline: 'Schedule a Demo Drive Today',
+    TaglineCTA: 'Demo Drive',
+    image: require('../../assets/images/Discover Voice Commands.mp4'),
+  },{*/
+
     name: 'Model S',
     tagline: 'Starting at $69,420',
     image: require('../../assets/images/ModelS.jpeg'),
