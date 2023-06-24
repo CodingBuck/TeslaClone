@@ -4,11 +4,18 @@ import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import CarsItem from './Components/CarsItem';
 
 
+
 export default function App() {
   return (
     <View style={styles.container}>
 
-        <CarsItem />
+        <CarsItem
+            name={"Model 3"}
+            tagline={"Order Online For"}
+            taglineCTA={"Touchless Delivery"}
+            image={required('./assets/images/Model3.jpeg')}
+        />
+
       <StatusBar style="auto" />
     </View>
   );
