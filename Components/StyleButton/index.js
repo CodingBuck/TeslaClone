@@ -6,6 +6,7 @@ const StyledButton = (props) => {
 
   const { type, content, onPress } = props;
 
+
   const backgroundColor = type === 'primary' ? '#171A20CC' : '#FFFFFFA6';
   const textColor = type === 'primary' ? '#FFFFFF' : '#171A20';
 
@@ -21,4 +22,4 @@ const StyledButton = (props) => {
   );
 };
 
-export default StyledButton;
+export default StyleButton;
